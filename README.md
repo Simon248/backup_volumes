@@ -1,5 +1,7 @@
 # backup_volumes
 
+Dont forget to chmod+x the scripts
+
 ## use backup-volume-script.sh for one volume to save:
 ./backup-script.sh volume2 ~/path_to_save_dir/
 
@@ -8,4 +10,3 @@
 
 
 
-Dont forget to chmod+x the scripts
