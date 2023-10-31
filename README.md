@@ -7,4 +7,5 @@
 ./backup-multiple-volume-script.sh ~/path_to_save_dir/ volume1 volume2
 
 
-## Dont forget to chmod+x the scripts
+
+Dont forget to chmod+x the scripts
