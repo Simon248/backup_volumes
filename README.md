@@ -1,5 +1,6 @@
 # backup_volumes
 
+** ACHTUNG: those scripts will stop runing container using the specified volumes, then re run them. **
 Dont forget to chmod+x the scripts
 
 ## use backup-volume-script.sh for one volume to save:
