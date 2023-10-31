@@ -21,7 +21,7 @@ if [ ! -z "$CONTAINERS" ]; then
 fi
 
 echo "Démarrage de la sauvegarde du volume $VOLUME_NAME..."
-docker run --rm -v $VOLUME_NAME:/data -v $BACKUP_PATH:/backup alpine tar czf /backup/backup_$VOLUME_NAME_$(date +"%Y%m%d_%H%M%S").tar.gz -C /data ./
+docker run --rm -v $VOLUME_NAME:/data -v $BACKUP_PATH:/backup alpine tar czf /backup/backup_${VOLUME_NAME}_$(date +"%Y%m%d_%H%M%S").tar.gz -C /data ./
 echo "Sauvegarde terminée. Le backup est stocké dans $BACKUP_PATH"
 
 # Redémarrer les conteneurs
